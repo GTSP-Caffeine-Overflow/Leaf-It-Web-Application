@@ -6,3 +6,11 @@
 
 ## Landing Page: Allow users to download Google Chrome Extention
 ![leafit home](https://user-images.githubusercontent.com/63386979/134818485-71532fed-b2a2-4421-8d49-cee37c200fec.png)
+
+## Reach Us on Our LinkedIn's:
+
+- [Kalyan](https://www.linkedin.com/in/kalyanpullela/)
+- [Paul](https://www.linkedin.com/in/paulzhourp/)
+- [Allen](https://www.linkedin.com/in/allentran08/)
+- [Revanth](https://www.linkedin.com/in/revcherukuri/)
+- [Julian](https://www.linkedin.com/in/juliancolumbres/)
