@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <input
+      type="text"
+      name="search"
+      id="search"
+      placeholder="Search"
+      class="form-control"
+    />
+
+    <div id="welcomeDiv" style="display: none" class="answer_list">WELCOME</div>
+    <input type="button" name="answer" value="Show Div" onclick="showDiv()" />
+
+    <form id="form">
+      <input name="inputTypeName" placeholder="5" />
+    </form>
+  </body>
+</html>
+
+<script>
+  async function showDiv() {
+    document.getElementById("welcomeDiv").style.display = "block";
+
+    var form = new FormData(document.getElementById("form"));
+    var inputValue = form.get("inputTypeName");
+    var requestOptions = {
+      method: "GET",
+      redirect: "follow",
+    };
+    fetch(
+      `https://leaf-it-node-red-1.mybluemix.net/product-list`,
+      requestOptions
+    )
+      .then((response) => response.json())
+      .then((result) => printIt(result))
+      .catch((error) => console.log("error", error));
+
+    let printIt = (data) => {
+      const jsonData = data;
+      console.log(jsonData);
+      console.log(inputValue);
+    };
+  }
+</script>

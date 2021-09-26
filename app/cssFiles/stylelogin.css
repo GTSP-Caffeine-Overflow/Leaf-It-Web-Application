@@ -1,0 +1,36 @@
+body{
+    background: url('https://media.istockphoto.com/photos/wide-angle-light-blue-blur-background-picture-id1004961090?k=6&m=1004961090&s=170667a&w=0&h=MY311XyThJUPviwP-oGPWx02MJ8FK-ClHYxrvkr9A8g=') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    /* position:fixed; */
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    margin: 0;
+    z-index: 2;
+    animation-name: fade;
+    animation-duration: 2s;
+}
+body{
+    background: url('https://media.istockphoto.com/photos/wide-angle-light-blue-blur-background-picture-id1004961090?k=6&m=1004961090&s=170667a&w=0&h=MY311XyThJUPviwP-oGPWx02MJ8FK-ClHYxrvkr9A8g=') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100vh;
+    margin: 0;
+    z-index: 2;
+    animation-name: fade;
+    animation-duration: 2s;
+}
+@keyframes fade {
+      0% {
+          opacity: 0;
+      }
+      100% {
+          opacity: 1;
+      }
+}
